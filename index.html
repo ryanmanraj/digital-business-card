@@ -8,13 +8,61 @@
     <title>Hello, Ryan</title>
 </head>
 <body>
-    <img src="./images/Logo1024px.png" width="10%" height="10%">
-    <h1>Ryan Manraj</h1>
-    <h2>does stuff</h2>
-    <a href="tel:+16474486949">CALL</a>
-    <a href="mailto:ryanmanraj+hello@gmail.com">EMAIL</a>
-    <a href="https://www.ryanmanraj.com">WEBSITE</a>
-    <a href="https://www.github.com/ryanmanraj/">WEBSITE</a>
-    <a href="https://www.instagram.com/ryanmanraj/">INSTAGRAM</a>
+    <div class="top">
+        <img src="./images/Logo1024px.png" class="logo">
+    </div>
+    <div class="mid">
+        <h1>Ryan Manraj</h1>
+        <h2>does stuff</h2>
+    </div>
+    <div class="bot">
+        <ul class="big-container">
+            <li>
+                <button type="button" class="custom-button">
+                    <span class="button__text"><a href="tel:+16474486949">CALL</a></span>
+                    <span class="button__icon">
+                        <ion-icon name="call-outline"></ion-icon>
+                    </span>
+                </button>
+            </li>
+            <li>
+                <button type="button" class="custom-button">
+                    <span class="button__text"><a href="mailto:ryanmanraj+hello@gmail.com">EMAIL</a></span>
+                    <span class="button__icon">
+                        <ion-icon name="mail-outline"></ion-icon>
+                    </span>
+                </button>
+            </li>
+        </ul>
+        <ul class="small-container">
+            <li>
+                <button type="button" class="custom-button">
+                    <span class="button__icon">
+                        <a href="https://www.ryanmanraj.com">
+                            <ion-icon name="globe-outline"></ion-icon>
+                        </a>
+                    </span>
+                </button>
+            </li><li>
+                <button type="button" class="custom-button">
+                    <span class="button__icon">
+                        <a href="https://www.github.com/ryanmanraj/">
+                            <ion-icon name="logo-github"></ion-icon>
+                        </a>
+                    </span>
+                </button>
+            </li>
+            <li>
+                <button type="button" class="custom-button">
+                    <span class="button__icon">
+                        <a href="https://www.instagram.com/ryanmanraj/">
+                            <ion-icon name="logo-instagram"></ion-icon>
+                        </a>
+                    </span>
+                </button>
+            </li>
+        </ul>
+    </div>
 </body>
+<script src="https://unpkg.com/ionicons@latest/dist/ionicons.js"></script>
 </html>
